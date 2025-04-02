@@ -1,8 +1,10 @@
 .nav-cover {
     height: 70px;
+    background: linear-gradient(to bottom, #00008B, transparent);
 }
 .nav-cover nav {
     width: 80vw;
+    background: transparent;
     margin: auto;
     justify-content: space-between;
 }
