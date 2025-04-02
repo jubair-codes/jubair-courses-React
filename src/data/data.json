@@ -1,0 +1,87 @@
+[
+    {
+      "name": "Freelancing Basics 101",
+      "key": "1",
+      "img": "https://imgv2-1-f.scribdassets.com/img/document/612340331/original/9a5a31c0ee/1?v=1",
+      "features": ["Introduction to freelancing", "Understanding platforms", "Best practices for beginners"],
+      "price": 19.99
+    },
+    {
+      "name": "Advanced Freelancing Strategies",
+      "key": "2",
+      "img": "https://images.ctfassets.net/aq13lwl6616q/1pU68mCdL4C26KTxAUXmbe/f6a21624f217c0afec2829b33b2899b0/Thumbnail_-_Freelance_Course.jpeg",
+      "features": ["Client retention techniques", "Scaling your business", "Effective communication skills"],
+      "price": 49.99
+    },
+    {
+      "name": "Freelance Writing Essentials",
+      "key": "3",
+      "img": "https://www.clearvoice.com/wp-content/uploads/2023/07/Freelance-Writing-Portfolio_Essentials-Infographic.jpg",
+      "features": ["Writing proposals", "SEO optimization", "Content creation tips"],
+      "price": 29.99
+    },
+    {
+      "name": "Graphic Design for Freelancers",
+      "key": "4",
+      "img": "https://images.squarespace-cdn.com/content/5e003098af59914152de6c78/1577143278083-AM7F39TLWZA4DO7M6KBS/Graphic-Design-Freelance-Jobs.jpg?content-type=image%2Fjpeg",
+      "features": ["Design basics", "Popular tools like Photoshop", "Client-focused designing"],
+      "price": 59.99
+    },
+    {
+      "name": "Freelance Web Development",
+      "key": "5",
+      "img": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/144685318/original/c0a92a3d0a771dd1a616ad6bd49b3b263e60855b/create-you-a-website-im-a-freelance-web-developer.jpeg",
+      "features": ["HTML/CSS/JavaScript basics", "Portfolio creation", "Client project management"],
+      "price": 39.99
+    },
+    {
+      "name": "Social Media Management",
+      "key": "6",
+      "img": "https://images.ctfassets.net/cpumif18y1gd/4lswR4QQwwXyOrZ1sCcLpU/eb59409ea03a832082576110d3527965/How_to_be_a_Social_Media_Manager_625x417.png",
+      "features": ["Content scheduling", "Platform strategies", "Growth analytics"],
+      "price": 24.99
+    },
+    {
+      "name": "Freelancing with AI Tools",
+      "key": "7",
+      "img": "https://www.freelancing.com.au/wp-content/uploads/2022/07/working-on-a-laptop.jpeg",
+      "features": ["Using ChatGPT for tasks", "AI-driven content creation", "Time-saving techniques"],
+      "price": 44.99
+    },
+    {
+      "name": "Photography and Freelancing",
+      "key": "8",
+      "img": "https://images.unsplash.com/photo-1588200618450-3a5b1d3b9aa5?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=9000&w=1200&q=40&fit=clip&fm=jpg",
+      "features": ["Photo editing basics", "Building a portfolio", "Finding clients"],
+      "price": 49.99
+    },
+    {
+      "name": "SEO Freelancing Masterclass",
+      "key": "9",
+      "img": "https://static.skillshare.com/uploads/video/thumbnails/9ab8f44d8315c52056d722bf56803f13/original",
+      "features": ["Keyword research", "Website audits", "Technical SEO basics"],
+      "price": 34.99
+    },
+    {
+      "name": "Virtual Assistance Crash Course",
+      "key": "10",
+      "img": "https://dukaan.b-cdn.net/700x700/webp/media/3279a933-0213-494c-ab88-c3cecf8aeb6c.jpg",
+      "features": ["Managing schedules", "Email handling", "Task prioritization"],
+      "price": 19.99
+    },
+    {
+      "name": "Programming for Freelancers",
+      "key": "11",
+      "img": "https://cdn.prod.website-files.com/5f33d1a6f0dd1334c5ec9264/603479744644302c7c9eaa78_freelance%20coder.jpg",
+      "features": ["Basics of Python/JavaScript", "Automation projects", "Freelance coding techniques"],
+      "price": 59.99
+    },
+    {
+      "name": "Illustration for Freelancers",
+      "key": "12",
+      "img": "https://img.freepik.com/free-vector/happy-freelancer-with-computer-home-young-man-sitting-armchair-using-laptop-chatting-online-smiling-vector-illustration-distance-work-online-learning-freelance_74855-8401.jpg",
+      "features": ["Creating unique designs", "Tools like Illustrator", "Marketing your work"],
+      "price": 39.99
+    }
+]
+  

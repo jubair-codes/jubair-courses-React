@@ -1,0 +1,21 @@
+.nav-cover {
+    height: 70px;
+}
+.nav-cover nav {
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+}
+.logo {
+    width: 50px;
+}
+.nav-btn li {
+    list-style: none;
+    margin: 10px;
+}
+.nav-btn li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 400;
+}
