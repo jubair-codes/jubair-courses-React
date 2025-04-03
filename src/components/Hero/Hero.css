@@ -1,14 +1,17 @@
 .hero-banner {
+    position: relative;
+    top: 0;
+    z-index: 2;
     height: 500px;
     background-image: url('https://cdn.prod.website-files.com/5f33d1a6f0dd1334c5ec9264/603479744644302c7c9eaa78_freelance%20coder.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 0px 0 70px 70px;
+    border-radius: 0px 0 20px 20px;
 }
 .hero-splash {
     background-color: black;
-    border-radius: 0px 0 70px 70px;
+    border-radius: 0px 0 20px 20px;
     opacity: 0.7;
     padding: 200px;
 }

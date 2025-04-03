@@ -1,6 +1,8 @@
 .nav-cover {
     height: 70px;
-    background: linear-gradient(to bottom, #00008B, transparent);
+    background: linear-gradient(#0000a1, #00008b00);
+    position: absolute;
+    z-index: 10;
 }
 .nav-cover nav {
     width: 80vw;
