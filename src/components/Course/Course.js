@@ -2,14 +2,12 @@ import React from 'react';
 import './Course.css';
 
 const Course = (props) => {
-    console.log(props.data);
-    const { name, img, features } = props.data;
-    console.log(features);
+    const { name, img, features, price } = props.data;
     
     return (
             <div className='col-5'>
             {/* each courses */}
-            <div class="p-0 bg-light rounded m-2 border course">
+            <div className="p-0 bg-light rounded m-3 border course">
                 <div className='w-100 img-cover rounded' style={{
                     backgroundImage: `url(${img})`
                 }}></div>
@@ -21,7 +19,12 @@ const Course = (props) => {
                         <li>{features[2]}</li>
                     </h6>
                 </div>
-                <button className="w-100 mt-2 rounded">Enroll Now</button>
+                <h3 className='text-center'>${price}</h3>
+                <button 
+                    className="w-100 mt-2 rounded" 
+                    onClick={() => {props.enrollHandler(props.data)}}>
+                        Enroll Now
+                </button>
             </div>
             </div>
     );

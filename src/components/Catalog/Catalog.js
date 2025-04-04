@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Catalog.css';
 import Course from '../Course/Course.js'
 import Cart from '../Cart/Cart.js'
 
 const Catalog = (props) => {
-    console.log(props.data);
-
     const courses = props.data;
+    const [cart, setCart] = useState([]);
+    function enrollHandler(course) {
+        const newCart = [...cart, course];
+        console.log(newCart);
+        setCart(newCart);
+    }
+    
     return (
         <div className='w-100'>
             <div className='w-100 p-2'>
@@ -17,12 +22,14 @@ const Catalog = (props) => {
                         {
                             courses.map(course => <Course
                                 data={course}
+                                key={course.key}
+                                enrollHandler={enrollHandler}
                             ></Course>)
                         }
                     </div>
                     {/* sidebar */}
                     <div className='catalog-sidebar'>
-                        <Cart></Cart>
+                        <Cart cart={cart}></Cart>
                     </div>
                 </div>
             </div>
